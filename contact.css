@@ -1,0 +1,145 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background: black;
+    padding: 20px;
+    word-spacing: 10px;
+    /* color: red; */
+}
+a{
+    text-decoration: none;
+}
+.container
+{
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+}
+.logo{
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 30px;
+    font-family: fantasy;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    font-size: 20px;
+    color: white;
+    padding: 30px;
+}
+li a:hover{
+    color: blue;
+}
+.logo a{
+    text-decoration: none;
+    color: red;
+}
+.imgcontainer {
+    /* height: 100vh; */
+    width: 100%;
+}
+.imgcontainer img{
+    width: 100%;
+}
+.best{
+    position: absolute;
+    color: red;
+    top: 25%;
+    left: 40%;
+    font-size: 50px;
+}
+.new{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 26%;
+    font-size: 70px;
+}
+.about-section{
+    padding: 0px 20px;
+}
+.about-row{
+    gap: 3rem;
+}
+.about-row{
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 15px;
+    padding: 30px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-row img{
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.text{
+    width: 160%;
+    height: 20px;
+    /* padding: 4px; */
+    
+}
+.textarea{
+    width: 162%;
+    height: 70px;
+   /* padding: 4px; */
+}
+.button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    /* margin-left: 150px; */
+    border-radius: 30px;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+ 
+}
+ 
+.form-center{
+    display: flex;
+    justify-content: center;
+    margin-right: 190px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px 40px;
+    margin-top: 4rem;
+    user-select: none;
+  
+    .copy{
+      text-align: center;
+    }
+  }
+  footer .logo {
+    font-size: 50px;
+    font-family: fantasy;
+  }
+  .footer_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    .cmp p a{
+      color: white;
+      cursor: pointer;
+      
+    }
+    .cmp p a:hover{
+      color: red;
+    }
+    
+  }
